@@ -1,0 +1,208 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header-color{
+  background: #200122;  
+  background: -webkit-linear-gradient(to right, #6f0000, #200122);  
+  background: linear-gradient(to right, #6f0000, #200122); 
+}
+
+.drawer-color{
+  background: #200122;  
+  background: -webkit-linear-gradient(to right, #6f0000, #200122); 
+  background: linear-gradient(to right, #6f0000, #200122); 
+}
+
+.cover-grid{
+  background: #200122;  
+  background: -webkit-linear-gradient(to right, #6f0000, #200122); 
+  background: linear-gradient(to right, #6f0000, #200122); 
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;  
+  text-align: center;
+}
+
+.cover-img{
+  height: 250px;
+  padding-top: 5em;
+}
+
+.cover-title{
+  background-color: black;
+  border: 3px solid white;
+  opacity: 0.8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.cover-title h1{
+  font-size: 35px;
+  font-weight: bold;
+  color: aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.cover-titile p{
+  color: white;
+  font-size: 10px;
+  margin: auto;
+}
+
+.contact-icon{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+  color: white;
+}
+
+.contact-icon i{
+  color: white;
+  font-size: 5em;
+  padding: 14px;
+}
+
+.fab.fa-html5{
+  color: #f06529;
+  font-size: 1.5em;
+  padding: 14px;
+}
+
+.fab.fa-css3-alt{
+  color: #2965f1;
+  font-size: 1.5em;
+  padding: 14px;
+}
+
+.fab.fa-js-square{
+  color: #f0db4f;
+  font-size: 1.5em;
+  padding: 14px;
+}
+
+.fab.fa-react{
+  color: #61DBFB;
+  font-size: 1.5em;
+  padding: 14px;
+}
+
+.fab.fa-node{
+  color: #68a063;
+  font-size: 1.5em;
+  padding: 14px;
+}
+
+.fab.fa-bootstrap{
+  color: #563d7c;
+  font-size: 1.5em;
+  padding: 14px;
+}
+
+.fab.fa-sass{
+  color: #cc6699;
+  font-size: 1.5em;
+  padding: 14px;
+}
+
+/* Resume CSS */
+
+.resume-right{
+  background: #200122;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 20px;
+  color: white;
+  padding: 2em;
+}
+
+.course-list i {
+  font-size: 15px;
+  padding-right: 1em;
+  margin-top: 10px;
+  margin-right: 2px;
+  margin-bottom: 10px;
+  color: white;
+}
+.job-list i {
+  font-size: 15px;
+  padding-right: 1em;
+  margin-top: 10px;
+  margin-right: 2px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+/* Contact CSS */
+
+.contact{
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  width: 90%;
+  height: 800px;
+  background: #200122; 
+  background: -webkit-linear-gradient(to right, #6f0000, #200122); 
+  background: linear-gradient(to right, #6f0000, #200122); 
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.contact-list i{
+  font-size: 35px;
+  padding-right: .5em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+
